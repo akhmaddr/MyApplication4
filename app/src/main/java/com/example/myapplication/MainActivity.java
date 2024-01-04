@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        // tester
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
