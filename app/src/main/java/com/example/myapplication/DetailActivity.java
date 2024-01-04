@@ -56,6 +56,7 @@ public class   DetailActivity extends AppCompatActivity {
                 });
             }
         });
+        // tester
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
