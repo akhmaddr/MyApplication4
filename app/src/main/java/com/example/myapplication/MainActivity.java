@@ -90,13 +90,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void searchList(String text){
-        ArrayList<DataClass> searchList = new ArrayList<>();
-        for (DataClass dataClass: dataList){
-            if (dataClass.getDataTitle().toLowerCase().contains(text.toLowerCase())){
-                searchList.add(dataClass);
-            }
-        }
-        adapter.searchDataList(searchList);
-    }
+
 }
